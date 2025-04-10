@@ -4,9 +4,8 @@
 (Enter your team name from Canvas)
 
 ## Team Members:
-- Student 1
-- Student 2
-- Student 3
+-Maiva Ndjiakou
+-Jazzmin Poitier
 
 ## Project Title:
 (Enter your project title - be creative)
