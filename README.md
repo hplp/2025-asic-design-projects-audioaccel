@@ -16,7 +16,7 @@ The goal of this project is to design a custom ASIC that accelerates audio signa
 ## Key Objectives:
 •	Objective 1: Implement a highly efficient CIC filter in Verilog/VHDL for real-time audio processing (decimation and interpolation).
 •	Objective 2: Synthesize and optimize the ASIC design using industry-standard EDA tools (DC Shell, ICC2 Shell).
-•	Objective 3: Verify functional correctness and optimize performance for area, speed, and power consumption using formal verification and simulation tools.
+•	Objective 3: Verify functional correctness and optimize performance for area and speed using formal verification and simulation tools.
 
 ## Technology Stack:
 Hardware Platform: ASIC design targeting integration with audio front-end components (e.g., microphones, ADCs) for real-time processing.
