@@ -11,7 +11,7 @@ AudioAccel
 AudioAccel
 
 ## Project Description:
-The goal of this project is to design a custom ASIC that accelerates audio signal processing using a Cascaded Integrator-Comb (CIC) filter, targeting efficient sample rate conversion for real-time audio applications. The main problem we are addressing is the inefficiency of traditional signal processing pipelines, especially in devices like wireless audio systems, hearing aids, and professional audio equipment, which require efficient downsampling and upsampling. By implementing the CIC filter directly in hardware, we aim to reduce power consumption and latency, improving both performance and energy efficiency for audio processing tasks.
+The goal of this project is to design a custom ASIC that accelerates audio signal processing using a Cascaded Integrator-Comb (CIC) filter, targeting efficient sample rate conversion for real-time audio applications. The main problem we are addressing is the inefficiency of traditional signal processing pipelines, especially in devices like wireless audio systems, hearing aids, and professional audio equipment, which require efficient downsampling and upsampling. By implementing the CIC filter directly in hardware, we aim to reduce latency, improving both performance and energy efficiency for audio processing tasks.
 
 ## Key Objectives:
 •	Objective 1: Implement a highly efficient CIC filter in Verilog/VHDL for real-time audio processing (decimation and interpolation).
@@ -42,7 +42,7 @@ RTL Design Implementation
 •	Task: Implement the CIC filter design in Verilog/VHDL, focusing on the structure and modularity to make it scalable for different audio sample rates.
 •	Lead: Jazzmin
 3. RTL Synthesis
-•	Task: Use DC Shell for RTL synthesis, focusing on optimizing the design for power, area, and timing.
+•	Task: Use DC Shell for RTL synthesis, focusing on optimizing the design for  area and timing.
 •	Lead: Maiva
 4. Formal Verification
 •	Task: Perform functional verification using FM Shell to ensure the design works as expected for different audio sample rate inputs.
@@ -59,4 +59,4 @@ RTL Design Implementation
 
 
 ## Timeline:
-Week 1 literature review, and basic CIC design in Verilog/VHDL - Completed Week 2 Synthesis with DC Shell and functional verification using FM Shell and Design optimization for speed, power, and area Week 3 -Place-and-route using ICC2 Shell and power/timing analysis Week 4- Final simulation with DVE, testing on audio signals, documentation, and presentation prep
+Week 1 literature review, and basic CIC design in Verilog/VHDL - Completed Week 2 Synthesis with DC Shell and functional verification using FM Shell and Design optimization for speed and area Week 3 -Place-and-route using ICC2 Shell and power/timing analysis Week 4- Final simulation with DVE, testing on audio signals, documentation, and presentation prep
