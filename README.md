@@ -32,7 +32,7 @@ TCL scripts: For EDA automation (e.g., running synthesis, simulation).
 
 ## Expected Outcomes:
 •	CIC-based ASIC Design capable of efficient sample rate conversion for real-time audio processing.
-•	Optimized Performance: Significant improvements in speed, power, and area usage compared to software-based or FPGA implementations.
+•	Optimized Performance: Significant improvements in speed and area usage compared to software-based or FPGA implementations.
 •	Functional Verification: Successful simulation and verification with DVE, ensuring the CIC filter performs as expected in various audio signal scenarios.
 •	Documentation & Analysis: Comprehensive report covering design, optimizations, performance metrics, and comparisons with traditional software-based or FPGA solutions
 
