@@ -14,7 +14,7 @@ AudioAccel
 The goal of this project is to design a custom ASIC that accelerates audio signal processing using a Cascaded Integrator-Comb (CIC) filter, targeting efficient sample rate conversion for real-time audio applications. The main problem we are addressing is the inefficiency of traditional signal processing pipelines, especially in devices like wireless audio systems, hearing aids, and professional audio equipment, which require efficient downsampling and upsampling. By implementing the CIC filter directly in hardware, we aim to reduce power consumption and latency, improving both performance and energy efficiency for audio processing tasks.
 
 ## Key Objectives:
-•	Objective 1: Design and implement a highly efficient CIC filter in Verilog/VHDL for real-time audio processing (decimation and interpolation).
+•	Objective 1: Implement a highly efficient CIC filter in Verilog/VHDL for real-time audio processing (decimation and interpolation).
 •	Objective 2: Synthesize and optimize the ASIC design using industry-standard EDA tools (DC Shell, ICC2 Shell).
 •	Objective 3: Verify functional correctness and optimize performance for area, speed, and power consumption using formal verification and simulation tools.
 
