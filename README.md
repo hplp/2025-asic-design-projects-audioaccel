@@ -19,7 +19,7 @@ The goal of this project is to design a custom ASIC that accelerates audio signa
 •	Objective 3: Verify functional correctness and optimize performance for area, speed, and power consumption using formal verification and simulation tools.
 
 ## Technology Stack:
-Hardware Platform: Microphone 
+Hardware Platform: ASIC design targeting integration with audio front-end components (e.g., microphones, ADCs) for real-time processing.
 •	Software Tools:
 Synopsys Design Compiler (DC Shell): For RTL synthesis, logic synthesis, and optimization.
 IC Compiler II (ICC2 Shell): For place-and-route and physical design.
