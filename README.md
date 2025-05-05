@@ -111,21 +111,23 @@ Figure 1: Showing Initial Vivado Simulation – Run Behavioral Simualtion
 •	RTL was fully synthesized using Synopsys Design Compiler (DC Shell) to generate a gate-level
 netlist optimized for area and timing.
 
-
+![image](https://github.com/user-attachments/assets/7c286695-c03a-4759-b332-f53471168d48)
+Opening schematic view of CIC
 
 ![image](https://github.com/user-attachments/assets/cf56eb25-127b-4388-acec-2af8024130fa)
 
 Design view from DC
 
 ![image](https://github.com/user-attachments/assets/8a1f646d-df98-40ac-9d6d-86c1c4ca71e7)
-
+Design view from DC after compile
 •	Formal verification via FM Shell ensured functional equivalence between RTL and synthesized 
 netlist across different input scenarios—critical for ASIC reliability.
-![image](https://github.com/user-attachments/assets/7c286695-c03a-4759-b332-f53471168d48)
 ![image](https://github.com/user-attachments/assets/21b4e3bf-7717-4258-820d-5deab9d51808)
+Setup the Design Window
 ![image](https://github.com/user-attachments/assets/99276c1c-33b1-4571-957d-bc69ec2c9c21)
+Match compare points
 ![image](https://github.com/user-attachments/assets/69764079-afc5-475a-b30d-862348634cc1)
-
+Verify the design
 ![image](https://github.com/user-attachments/assets/c6aa26d9-ddeb-4c9a-bf4a-425f57984935)
 sdc schematic 
 
@@ -135,10 +137,12 @@ sdc schematic
 key objectives like clock routing, congestion reduction, and timing closure were addressed.
 
 ![image](https://github.com/user-attachments/assets/4cbc354d-4d25-4757-b98b-ae6900d4149d)
-
+ Design view after importing
 ![image](https://github.com/user-attachments/assets/30144680-2dd4-467b-83f8-b2285e109f6e)
 ![image](https://github.com/user-attachments/assets/39467acd-e163-49aa-8779-be77e72fa205)
+ Initialize floorplan window
 ![image](https://github.com/user-attachments/assets/d5643ce1-49f7-49f4-a5a5-80356560f613)
+. After Power and Ground Planning
 ![image](https://github.com/user-attachments/assets/996a13db-74f6-4249-b446-a5ed0026d4e3)
 ![image](https://github.com/user-attachments/assets/6cb6ec1e-9610-4f17-ba1a-af3fb264d8b6)
 ![image](https://github.com/user-attachments/assets/6a16693f-bcb2-4033-9d8b-b901cf39750c)
