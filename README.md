@@ -16,7 +16,7 @@ The goal of this project is to design a custom ASIC that accelerates audio signa
 ## Key Objectives:
 •	Objective 1: Implement a highly efficient CIC filter in Verilog/VHDL for real-time audio processing (decimation and interpolation).
 •	Objective 2: Synthesize and optimize the ASIC design using industry-standard EDA tools (DC Shell, ICC2 Shell).
-•	Objective 3: Verify functional correctness and optimize performance for area and speed using formal verification and simulation tools.
+•	Objective 3: Verify functional correctness and attempt optimizing performance for area and speed using formal verification and simulation tools.
 
 ## Technology Stack:
 Hardware Platform: ASIC design targeting integration with audio front-end components (e.g., microphones, ADCs) for real-time processing.
@@ -59,4 +59,38 @@ RTL Design Implementation
 
 
 ## Timeline:
-Week 1 literature review, and basic CIC design in Verilog/VHDL - Completed Week 2 Synthesis with DC Shell and functional verification using FM Shell and Design optimization for speed and area Week 3 -Place-and-route using ICC2 Shell and power/timing analysis Week 4- Final simulation with DVE, testing on audio signals, documentation, and presentation prep
+Week 1 literature review, and basic CIC design in Verilog/VHDL - Completed Week 2 Synthesis with DC Shell and functional verification using FM Shell and Design optimization for speed and area Week 3 -Place-and-route using ICC2 Shell and power/timing analysis Week 4- Final simulation with FM Shell, documentation, and presentation prep
+
+FINAL PROJECT DOCUMENTATION 
+
+
+
+The Cascaded Integrator-Comb (CIC) filter is a highly efficient digital filter used to process
+and enhance resampled audio signals. It plays a critical role in enabling area-efficient and 
+high-throughput sample rate conversion, especially in systems like Digital Down Converters (DDC)
+and Digital Up Converters (DUC). 
+
+This AudioAccel project successfully designed and optimized a custom ASIC that accelerates audio
+signal processing using a Cascaded Integrator-Comb (CIC) filter. This work targeted a real-world
+need: efficient sample rate conversion for real-time audio systems such as wireless headsets,
+hearing aids, and embedded DSPs. The key accomplishments and contributions of this project are
+summarized below:
+
+1. Functional Hardware Implementation
+•	A working CIC filter RTL design was sourced, reviewed, and adapted for hardware implementation
+ using Verilog.
+
+•	The filter enables efficient decimation of high-frequency PDM microphone input, reducing data
+ rate and mitigating aliasing artifacts with minimal computational complexity.
+
+2. Design Flow and Toolchain Proficiency
+•	The design was initially synthesized in Vivado, which helped catch early-stage design issues
+and ease debugging. This practical step enabled quicker design iterations before transitioning
+to more advanced industry-standard tools.
+
+![vivadosimulation](https://github.com/user-attachments/assets/d613bed6-bc7f-4e09-9732-693cc5557cf1)
+
+
+
+
+
